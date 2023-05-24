@@ -1,6 +1,4 @@
-* {
-    border:  2px solid red;  
-}
+
 
 body {
     font-family: "Roboto", Arial, sans-serif;
@@ -9,37 +7,49 @@ body {
 
 .flex-container {
     display: flex;
-    flex-direction: row;
-   
-}
-
-.flex-container div {
-background-color: #1f2937;
-border: 4px black;
-height: 200px;
-flex: 1 1 0%;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
 }
 
 .intro {
-    text-align: start;
-    color: white;
-
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
 }
+
+.intro p {
+    font-family: 'Roboto', arial;
+    opacity: 0.7;
+}
+
+h3 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
 .sign-up {
-background-color:  #3882f6;
-color: white;
-border: none;
-border-radius: 4px
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-
-.pillow-1 {
-    align-items: center;
-
-}
 .pillow-1 img {
-    max-width: 100%;
-    height: 150px;
-    align-items: center;
+    width: 400px;
+    height: 215px;
 }
-
