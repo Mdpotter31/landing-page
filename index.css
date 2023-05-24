@@ -92,5 +92,36 @@ color: #1F2937;
 .image-1 p, .image-2 p, .image-3 p, .image-4 p {
    font-size: 12px;
    opacity: .7;
-   
 }
+
+/*Third Section*/
+
+.flex-container-3 {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 70px;
+}
+
+.quote {
+    flex-basis: auto;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0px;
+    text-align: left;
+}
+
+.quote p {
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+.quoter {
+    color: #1F2937;
+    align-self: flex-end;
+    align-content: flex-start;
+    margin-top: 0px;             /*Margin Editor*/
+}
+
+/*Last Section*/
