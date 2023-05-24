@@ -30,7 +30,7 @@ body {
     opacity: 0.7;
 }
 
-h3 {
+.intro h3 {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
@@ -44,7 +44,7 @@ h3 {
     width: 110px;
     border: none;
     background: #3882f6;
-    padding: 10px;
+    padding: 5px;
     border-radius: 4px;
     color: #fff;
     font-family: 'Roboto', arial;
@@ -125,3 +125,56 @@ color: #1F2937;
 }
 
 /*Last Section*/
+
+.flex-container-4 {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 85px;
+    margin-left: 85px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    border-radius: 20px; 
+    padding: 20px; 
+   
+  }
+  
+  .outro {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center; /* Align text in the center */
+    margin-right: 30px;
+  }
+  
+  .outro p {
+    font-family: 'Roboto', arial;
+    opacity: 0.7;
+    margin-top: 0px;
+  }
+  
+  .outro h3 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+  }
+  
+  .sign-up-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    border: 1px solid white;
+    background: #3882f6;
+    padding: 5px;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+    margin: auto; 
+  }
