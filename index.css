@@ -1,3 +1,7 @@
+* {
+    border: solid red;
+}
+
 body {
     font-family: "Roboto", Arial, sans-serif;
     
@@ -52,6 +56,7 @@ h3 {
     width: 400px;
     height: 215px;
 }
+
 /*Second Section*/
 
 h4 {
@@ -59,17 +64,33 @@ font-size: 36px;
 text-align: center;
 font-weight: 900;
 color: #1F2937;
-
 }
 
 .flex-container-2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: white; 
 }
+
+/*All images in Second Section*/
 
 .image-1 img,.image-2 img, .image-3 img, .image-4 img {
     width: 100px;
     Height: 100px;
+    align-self: center;
+}
+
+
+.image-1,.image-2,.image-3, .image-4 {
+    flex-basis: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.image-1 p, .image-2 p, .image-3 p, .image-4 p {
+   font-size: 12px;
+   opacity: .7;
+   
 }
