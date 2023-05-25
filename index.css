@@ -66,9 +66,10 @@ color: #1F2937;
 
 .flex-container-2 {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     background-color: white; 
+    
 }
 
 /*All images in Second Section*/
@@ -81,11 +82,12 @@ color: #1F2937;
 
 
 .image-1,.image-2,.image-3, .image-4 {
-    flex-basis: auto;
+    flex-basis: 150px;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    align-items: center;
 }
 .image-1 p, .image-2 p, .image-3 p, .image-4 p {
    font-size: 12px;
@@ -130,8 +132,8 @@ color: #1F2937;
     background-color: #3882f6;
     align-items: center;
     justify-content: space-around;
-    margin-right: 85px;
-    margin-left: 85px;
+    margin-right: 150px;
+    margin-left: 150px;
     margin-top: 70px;
     margin-bottom: 50px;
     border-radius: 20px; 
@@ -140,10 +142,10 @@ color: #1F2937;
   }
   
   .outro {
-    flex-basis: 400px;
+    flex-basis: 300px;
     display: flex;
     flex-direction: column;
-    text-align: center; /* Align text in the center */
+    text-align: center; 
     margin-right: 30px;
   }
   
@@ -151,6 +153,7 @@ color: #1F2937;
     font-family: 'Roboto', arial;
     opacity: 0.7;
     margin-top: 0px;
+    font-size: 8px;
   }
   
   .outro h3 {
